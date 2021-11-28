@@ -17,7 +17,7 @@ const ExpenseForm = (props) => {
 
   const titleChangeHandler = (event) => {
     setEnteredTitle(event.target.value); // first approach
-    console.log(event.target.value);
+    //console.log(event.target.value);
 
     //   setUserInput({       // second approach
     //       ...userInput,
@@ -45,7 +45,7 @@ const ExpenseForm = (props) => {
         Amount : enteredAmount,
         date : new Date(enteredDate)
       };
-      console.log(ExpenseData);
+      //console.log(ExpenseData);
       props.onSaveExpensedata(ExpenseData);
       setEnteredTitle('');
       setEnteredAmount('');

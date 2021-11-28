@@ -8,7 +8,7 @@ function ExpenseItem(props) {
   
   const clickHandler = () =>{
     setTtile("Updated");
-    console.log("clicked!!");
+    //console.log("clicked!!");
   };
   
   return (

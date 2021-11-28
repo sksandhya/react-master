@@ -27,7 +27,12 @@ function App() {
   ];
   const addExpenseHandler = expense =>{
     console.log('in app.js');
+    const expenseData = {
+      ...expenses,
+      expense
+  };
     console.log(expense);
+    console.log(expenseData);
   }
   return (
     <div className="App">      
